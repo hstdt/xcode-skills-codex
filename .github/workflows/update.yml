@@ -1,0 +1,35 @@
+name: Update Xcode skills
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 4 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-xcode-skills
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.ref == 'refs/heads/main'
+    runs-on: xcode-27
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Export newer Xcode snapshot
+        run: python3 scripts/update.py --prepare-xcode
+      - name: Commit snapshot
+        shell: bash
+        run: |
+          git add skills .codex-plugin snapshot.json README.md
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          version=$(python3 -c 'import json; s=json.load(open("snapshot.json")); print(s["xcode_version"] + " (" + s["xcode_build"] + ")")')
+          git commit -m "Update Apple skills from Xcode $version"
+          git push origin HEAD:main
