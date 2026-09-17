@@ -3,12 +3,20 @@
 Apple-authored skills exported from Xcode in its native Codex plugin format, automatically maintained by GitHub Actions and `github-actions[bot]`.
 
 <!-- snapshot:start -->
-Awaiting the first automated export.
+Xcode **27.0 (27A5252f)** · Exported 2026-09-17 · 15 skills
 <!-- snapshot:end -->
 
 ## Skills
 
 <!-- skills:start -->
+| Area | Skills |
+| --- | --- |
+| Accessibility | [accessibility-dynamic-type-specialist](skills/accessibility-dynamic-type-specialist/SKILL.md), [accessibility-sufficient-contrast-specialist](skills/accessibility-sufficient-contrast-specialist/SKILL.md), [accessibility-voiceover-specialist](skills/accessibility-voiceover-specialist/SKILL.md) |
+| Modernization and safety | [adopt-c-bounds-safety](skills/adopt-c-bounds-safety/SKILL.md), [audit-xcode-security-settings](skills/audit-xcode-security-settings/SKILL.md), [modernize-tests](skills/modernize-tests/SKILL.md), [uikit-app-modernization](skills/uikit-app-modernization/SKILL.md) |
+| App Intents | [app-intents-specialist](skills/app-intents-specialist/SKILL.md), [app-intents-whats-new-27](skills/app-intents-whats-new-27/SKILL.md) |
+| SwiftUI | [building-document-based-swiftui-applications](skills/building-document-based-swiftui-applications/SKILL.md), [swiftui-specialist](skills/swiftui-specialist/SKILL.md), [swiftui-whats-new-27](skills/swiftui-whats-new-27/SKILL.md) |
+| Device verification | [device-interaction](skills/device-interaction/SKILL.md) |
+| Localization | [translation](skills/translation/SKILL.md), [translation-coordinator](skills/translation-coordinator/SKILL.md) |
 <!-- skills:end -->
 
 ## Automated updates
