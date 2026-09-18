@@ -3,7 +3,7 @@
 Apple-authored skills exported from Xcode in its native Codex plugin format, automatically maintained by GitHub Actions and `github-actions[bot]`.
 
 <!-- snapshot:start -->
-Xcode **27.0 (27A5252f)** · Exported 2026-09-17 · 15 skills
+Xcode **27.0 (27A266a)** · Exported 2026-09-18 · 15 skills
 <!-- snapshot:end -->
 
 ## Skills

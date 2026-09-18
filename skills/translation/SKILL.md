@@ -1,8 +1,8 @@
 ---
-sfSymbolName: translate
+description: "Translate strings in Xcode String Catalogs (.xcstrings files). Prefer to use the `xcode-integration:translation-coordinator` skill for task-coordination. Use this skill when translating individual strings or working with String Catalogs. Should only be activated when translating a single string or a small batch of known string keys. The `translation-coordinator` skill should be used for anything else."
 name: translation
 displayName: "Translate Strings"
-description: "Translate strings in Xcode String Catalogs (.xcstrings files). Prefer to use the `xcode-integration:translation-coordinator` skill for task-coordination. Use this skill when translating individual strings or working with String Catalogs. Should only be activated when translating a single string or a small batch of known string keys. The `translation-coordinator` skill should be used for anything else."
+sfSymbolName: translate
 ---
 # String Catalog Translator
 
