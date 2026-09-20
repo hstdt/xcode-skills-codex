@@ -20,7 +20,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Export newer Xcode snapshot
-        run: python3 scripts/update.py --prepare-xcode
+        shell: bash
+        run: |
+          python3 -m venv "$RUNNER_TEMP/xcode-export-venv"
+          "$RUNNER_TEMP/xcode-export-venv/bin/python" -m pip install PyYAML==6.0.2
+          "$RUNNER_TEMP/xcode-export-venv/bin/python" scripts/update.py --prepare-xcode
       - name: Commit snapshot
         shell: bash
         run: |

@@ -1,6 +1,29 @@
 {
-  "xcode_version": "27.0",
-  "xcode_build": "27A266a",
-  "export_date": "2026-09-18",
-  "skill_count": 15
+  "xcode_version": "27.1",
+  "xcode_build": "27A9269",
+  "export_date": "2026-09-20",
+  "skill_count": 15,
+  "generated_by": {
+    "kind": "local"
+  },
+  "history": [
+    {
+      "xcode_version": "27.0",
+      "xcode_build": "27A266a",
+      "export_date": "2026-09-18",
+      "skill_count": 15,
+      "generated_by": {
+        "kind": "github-actions"
+      }
+    },
+    {
+      "xcode_version": "27.0",
+      "xcode_build": "27A5252f",
+      "export_date": "2026-09-17",
+      "skill_count": 15,
+      "generated_by": {
+        "kind": "github-actions"
+      }
+    }
+  ]
 }
