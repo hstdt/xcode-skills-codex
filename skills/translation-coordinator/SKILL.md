@@ -1,8 +1,8 @@
 ---
-displayName: "Coordinate Translation"
+description: "Coordinates translation of an Xcode project or its String Catalogs (.xcstrings) into other languages. This is the main skill to activate when asked to work on translating strings, adding languages or working with .xcstrings files. Handles the full workflow: preparing the project for a new language, fetching untranslated strings, delegating translation work, and verifying results."
 name: translation-coordinator
 sfSymbolName: globe
-description: "Coordinates translation of an Xcode project or its String Catalogs (.xcstrings) into other languages. This is the main skill to activate when asked to work on translating strings, adding languages or working with .xcstrings files. Handles the full workflow: preparing the project for a new language, fetching untranslated strings, delegating translation work, and verifying results."
+displayName: "Coordinate Translation"
 user-invocable: false
 ---
 # Localization Coordinator
