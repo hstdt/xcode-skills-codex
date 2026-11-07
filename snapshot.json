@@ -1,13 +1,23 @@
 {
   "xcode_version": "27.2",
-  "xcode_build": "27B48",
-  "export_date": "2026-10-23",
+  "xcode_build": "27B52",
+  "export_date": "2026-11-07",
   "skill_count": 16,
   "generated_by": {
     "kind": "github-actions",
-    "url": "https://github.com/hstdt/xcode-skills-codex/actions/runs/39931599677"
+    "url": "https://github.com/hstdt/xcode-skills-codex/actions/runs/42366980340"
   },
   "history": [
+    {
+      "xcode_version": "27.2",
+      "xcode_build": "27B48",
+      "export_date": "2026-10-23",
+      "skill_count": 16,
+      "generated_by": {
+        "kind": "github-actions",
+        "url": "https://github.com/hstdt/xcode-skills-codex/actions/runs/39931599677"
+      }
+    },
     {
       "xcode_version": "27.2",
       "xcode_build": "27B5028f",
